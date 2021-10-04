@@ -1,0 +1,135 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #0093E9;
+  font-size: 120%;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.card-title {
+  margin-left: 45px;
+  font-size: 25px;
+}
+
+.card {
+  color: white;
+  width: 100%;
+}
+  
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
+.position-icon {
+  width: 18px;
+  height: 18px;
+}
+
+button {
+  margin: 0.5em;
+  border-radius: 50%;
+  border: none;
+  height: 44px;
+  width: 44px;
+  outline: none;
+  background-color: #1790d6;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  background: #7c7c7c6b;
+}
+
+input.search-bar {
+  border: none;
+  outline: none;
+  padding: 0.4em 1em;
+  width: 110px;
+  border-radius: 24px;
+  background-color: #1790d6;
+  font-family: inherit;
+  font-size: 105%;
+}
+  
+input[type=text] {
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
+
+.flex{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.flex h2 {
+  margin-left: 20px;
+}
+
+.airQualityCard {
+  margin-top: 45px;
+  text-align: center;
+}
+
+.airQualityCard.loading {
+  visibility: hidden;
+  max-height: 5px;
+  position: relative;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+  
+  
+/* Media Query For Tablet */
+@media only screen and (min-width: 768px) {
+  .card-title {
+    margin-left: 200px;
+    font-size: 35px;
+  }
+  
+   input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    width: 300px;
+    background-color: #1790d6;
+    font-family: inherit;
+    font-size: 105%;
+  }
+}
+
+/* End Media Query For Tablet */
+
+/* Media Query For Desktop */
+@media only screen and (min-width: 1200px) {
+  .card-title {
+    margin-left: 775spx;
+    font-size: 35px;
+  }
+  
+   input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background-color: #1790d6;
+    font-family: inherit;
+    font-size: 105%;
+  }
+}
+/* End Media Query For Desktop */
+  
