@@ -8,7 +8,7 @@ The application can use either user input or the JS API to get its GPS coordinat
 
 ## Link
 
-
+https://airquality01.netlify.app/
 
 ## Authors
 
